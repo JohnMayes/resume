@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John's Resume</title>
+  </head>
+  <body>
+    <div id="content"></div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+      const fetchMarkdown = async (file) => {
+        try {
+          const response = await fetch(file);
+          if (!response.ok) {
+            throw new Error('Markdown file not found');
+          }
+          const text = await response.text();
+          document.getElementById('content').innerHTML = marked.parse(text);
+        } catch (error) {
+          console.error('Error fetching markdown file: ', error);
+          document.getElementById(
+            'content'
+          ).innerHTML = `<p style="color: red;">Error: ${error.message}</p>`;
+        }
+      };
+
+      fetchMarkdown('resume.md');
+    </script>
+  </body>
+</html>
