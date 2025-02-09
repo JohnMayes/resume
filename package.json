@@ -4,19 +4,24 @@
   "description": "My resume",
   "main": "index.html",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "dev": "live-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JohnMayes/resume.git"
   },
   "keywords": [
+    "John Mayes",
     "resume"
   ],
-  "author": "JohnMayes",
+  "author": "John Mayes",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JohnMayes/resume/issues"
   },
-  "homepage": "https://github.com/JohnMayes/resume#readme"
+  "homepage": "https://github.com/JohnMayes/resume#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
 }
