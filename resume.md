@@ -10,6 +10,6 @@ Hello 👋
 
 Some text here!
 
-- one
-- two
-- three
+- One
+- Two
+- Three

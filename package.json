@@ -1,7 +1,7 @@
 {
   "name": "resume",
   "version": "1.0.0",
-  "description": "My resume",
+  "description": "John Mayes's Resume",
   "main": "index.html",
   "scripts": {
     "test": "test",
