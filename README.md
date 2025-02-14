@@ -2,17 +2,17 @@
 
 <a href="mailto:JohnMayes51@gmail.com" class=no-underline>JohnMayes51@gmail.com</a>
 
-I want to work on products that enrich other people’s lives.
+I want to build software that enriches the lives of others.
 
 I value an open work environment where ideas are judged based on their individual merit.
 
-I value small teams, low-level leadership, and the ownership of work.
+I value small teams, service in leadership, and the ownership of work.
 
 ---
 
 ## Previous employers
 
-### Navigo (risk-management software, general web development) 2022-current
+### Navigo (risk-management software, general web development) 2022–current
 
 _TypeScript, React, React Native, PostgreSQL, Rust_
 
@@ -27,10 +27,10 @@ In roughly chronological order, I have:
 - Built the front end of a mobile chat application using React Native.
 - Implemented various account features for a news aggregation mobile app with over 100,000 downloads, using React Native (Expo).
 - Built and delivered a custom content management system and administration dashboard which has been used to create and deliver over 37,000 pieces of content in multiple languages.
-- Integrated an AI assistant into a bible reading and commentary application.
+- Integrated an AI assistant into a Bible reading and commentary application.
 - Integrated Mailchimp into an account management API in order to support the internationalization of emails, using Rust.
 - Implemented a media management system allowing users to upload images, tag, search, and add images to other pieces of content.
-- Currently working on the simultaneous development of a bible reading / commentary web and mobile app supporting multiple languages, using NextJS and React Native (Expo).
+- Currently working on the simultaneous development of a Bible reading / commentary web and mobile app supporting multiple languages, using NextJS and React Native (Expo).
 
 ---
 
@@ -42,7 +42,7 @@ In roughly chronological order, I have:
 
 ### Contributions
 
-- [react-native-svgxml-web](https://github.com/shamilovtim/react-native-svgxml-web), React native web svgs supporting svgxml.
+- [react-native-svgxml-web](https://github.com/shamilovtim/react-native-svgxml-web), react native web svgs supporting svgxml.
 
 ---
 
